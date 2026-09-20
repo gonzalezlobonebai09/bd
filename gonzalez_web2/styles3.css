@@ -1,0 +1,208 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FBF9F6;
+    color: #000000;
+    padding: 30px;
+}
+
+.pagina-contenedor {
+    max-width: 1200px;          
+    margin: 0 auto;            
+    display: flex;               
+    flex-direction: column;      
+    gap: 50px;                  
+}
+
+.menu {
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;         
+    background: #F3EDE2;       
+    border: 1px solid #C9A054;  
+    border-radius: 8px;          
+    padding: 15px 25px;
+    margin-bottom: 30px;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+    background: none;      
+    border: none;   
+    padding: 6px 12px;          
+    border-radius: 4px;          
+}
+
+.imagen-logo {
+    height: 70px;               
+    width: auto;
+    display: block;
+}
+
+.menu .nav-links {
+    display: flex;               
+    gap: 20px;                   
+    list-style: none;            
+}
+
+.menu .nav-links a {
+    color: #000000; 
+    text-decoration: none;       
+    font-size: 0.9rem;         
+    transition: color 0.2s;
+}
+
+.menu .nav-links a:hover {
+    color: #D46A7A ;           
+    text-decoration: underline;
+}
+
+.banner {
+    background: #F3EDE2;         
+    border: 1px solid #555; 
+    border-radius: 8px;          
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;     
+    margin-bottom: 30px;  
+}
+
+.imagen-banner {
+    width: 90%;
+    height: 200px;    
+    background-color: #ffffff;     
+    border-radius: 6px;
+    display: block;
+}
+
+/* 4 CAJAS */
+.main-section {
+    background: #C9A054;         
+    border: 1px solid #D46A7A;
+    border-radius: 8px;          
+    padding: 20px;               
+    display: flex;               
+    flex-direction: column;      
+    gap: 15px;   
+    padding-bottom: 15px;
+    margin-bottom:40px;
+}
+.prop-tag {
+    display: inline-block;       
+    color: #d63031;         
+    font-family: monospace;      
+    font-size: 0.75rem;          
+    font-weight: bold;           
+    letter-spacing: 0.5px;       
+}
+
+.card-container {
+    display: flex;               
+    flex-wrap: nowrap;           
+    justify-content: space-between; 
+    gap: 10px;                   
+}
+
+.card {
+    width: 24%;                  
+    background: #FFFFFF;         
+    border: 1px solid #444;   
+    border-radius: 8px;          
+    padding: 12px;               
+    display: flex;               
+    flex-direction: column;      
+    gap: 10px;                             
+}
+
+.card-img {
+    height: 90px;                
+    background: #121212;         
+    border: 1px solid #555;      
+    border-radius: 4px;          
+    display: flex;               
+    align-items: center;
+    justify-content: center;
+    color: #000000;              
+    font-size: 0.85rem;
+}
+
+.card-body h3 {
+    font-size: 0.95rem;          
+    color: #000000;              
+}
+
+.card-body p {
+    font-size: 0.8rem;           
+    color: #000000;              
+    line-height: 1.4;            
+}
+
+/* FOOTER */
+.footer-container {
+    background: #F3EDE2 ;         
+    border: 2px solid #C9A054;
+    border-radius: 8px;          
+    padding: 20px;               
+    display: flex;               
+    justify-content: space-between; 
+    gap: 15px;                   
+}
+
+.footer-col {
+    flex: 1;                     
+    background: #FFFFFF;         
+    border: 1px solid #444;   
+    border-radius: 6px;          
+    padding: 15px;               
+    display: flex;               
+    flex-direction: column;      
+    gap: 6px;        
+    color: #000000;   
+    border: 2px solid #060605;    
+    margin-bottom: 20px;     
+}
+
+.footer-col h4 {
+    font-size: 0.85rem;          
+    color: #d63031;              
+}
+
+.footer-col p, 
+.footer-col a, 
+.footer-col li {
+    font-size: 0.80rem;          
+    color: #000000;       
+}
+.imagen-final {
+    max-width: 600px; 
+    width: 100%;     
+    height: auto;     /* Mantiene la proporción original de la imagen*/
+    display: block;
+    margin: 20px auto; /* Centra la imagen en la página */
+    border-radius: 6px;
+}
+
+.card-img {
+    height: 180px;               
+    background: #ffffff;         
+    border: 1px solid #555;      
+    border-radius: 4px;          
+    overflow: hidden;            
+    display: flex;               
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-tarjeta {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;       
+    display: block;
+}
+
+.footer-col h4 {
+    margin-bottom: 1px; /* bajando los px, baja la cantidad de espacio entre los titulos (h4) y el texto */
+}
